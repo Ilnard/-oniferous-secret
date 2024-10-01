@@ -1,0 +1,38 @@
+@import url('burger-icon.css');
+.header {
+    width: 100%;
+    height: 150px;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 5;
+    background-color: var(--global-bg-color);
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.header__logo > svg {
+    width: 125px;
+}
+.header__logo > svg > g > .plant {
+    fill: var(--accent-color);
+}
+.header__right {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+.header__nav ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+}
+.header__link {
+    font-size: 1rem;
+    transition: color .2s;
+}
+.header__link:hover {
+    color: var(--accent-color);
+}

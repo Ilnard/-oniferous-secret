@@ -1,0 +1,28 @@
+@media screen and (max-width: 1040px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 780px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 560px) {
+    .gallery {
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .gallery__picture {
+        height: 180px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    .gallery__picture {
+        height: 220px;
+    }
+}

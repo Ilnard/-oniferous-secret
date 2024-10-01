@@ -1,0 +1,39 @@
+@media screen and (max-width: 1050px) {
+    .header__right {
+        display: none;
+        background-color: white;
+        width: 100dvw;
+        height: 100dvh;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    .header__nav ul {
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+        row-gap: 20px;
+        margin-bottom: 30px;
+    }
+    .header__link {
+        font-size: 1.25rem;
+    }
+    .header__right.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 560px) {
+    .header {
+        height: 110px;
+        padding: 10px 0;
+    }
+    .header__inner {
+        padding: 10px 20px;
+    }
+    .header__logo > svg {
+        width: auto;
+        height: 40px;
+    }
+}

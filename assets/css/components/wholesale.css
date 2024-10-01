@@ -1,0 +1,30 @@
+.wholesale-banner {
+    display: flex;
+    column-gap: 40px;
+    min-height: 370px;
+    margin-bottom: 30px;
+}
+.wholesale-banner__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 600px;
+}
+.wholesale-banner__title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.highlight.accent {
+    color: var(--accent-color);
+}
+.wholesale-banner__picture {
+    flex: 1;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.wholesale-banner__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

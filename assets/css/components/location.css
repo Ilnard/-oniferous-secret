@@ -1,0 +1,21 @@
+.location__info {
+    position: relative;
+}
+.location__address {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    max-width: 360px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.location-icon > g > path {
+    fill: var(--accent-color);
+}
+.location__map {
+    border-radius: 25px;
+}

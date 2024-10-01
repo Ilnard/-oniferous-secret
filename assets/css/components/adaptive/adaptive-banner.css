@@ -1,0 +1,15 @@
+@media screen and (max-width: 740px) {
+    .banner__inner {
+        padding-left: 0;        
+    }
+}
+@media screen and (max-width: 640px) {
+    .banner {
+        background-position: center;
+        background-size: cover;
+        height: 450px;
+    }
+    .banner__inner {
+        bottom: 0;
+    }
+}

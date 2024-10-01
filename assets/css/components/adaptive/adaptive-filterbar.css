@@ -1,0 +1,9 @@
+@media screen and (max-width: 560px) {
+    .filterbar__inner {
+        justify-content: center;
+        gap: 10px;
+    }
+    .filterbar__btn {
+        flex: 1;
+    }
+}

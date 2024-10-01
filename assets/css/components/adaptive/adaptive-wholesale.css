@@ -1,0 +1,43 @@
+@media screen and (max-width: 1140px) {
+    .wholesale-banner__left {
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .wholesale-banner__left {
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 970px) {
+    .wholesale-banner__title {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 840px) {
+    .wholesale-banner__left {
+        justify-content: flex-start;
+        max-width: 300px;
+    }
+    .wholesale-banner__title {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 730px) {
+    .wholesale-banner {
+        column-gap: 20px;
+    }
+}
+@media screen and (max-width: 690px) {
+    .wholesale-banner {
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 20px;
+    }
+    .wholesale-banner__left {
+        max-width: none;
+        width: 100%;
+    }
+    .wholesale-widget {
+        width: 100%;
+    }
+}

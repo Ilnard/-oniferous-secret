@@ -1,0 +1,21 @@
+.filterbar__inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.filterbar__btn {
+    background-color: #EBEBEB;
+    font-size: 1rem;
+    border-radius: 25px;
+    padding: 15px 40px;
+    transition: background-color .2s, color .2s;
+}
+.filterbar__btn.active, .filterbar__btn:hover {
+    background-color: var(--accent-color);
+    color: white;
+}
+.filterbar__btn:active {
+    background-color: var(--accent-color-2);
+    color: white;
+}

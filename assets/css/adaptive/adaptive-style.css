@@ -1,0 +1,34 @@
+@import url('../components/adaptive/adaptive-header.css');
+@import url('../components/adaptive/adaptive-footer.css');
+
+@media screen and (max-width: 780px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 560px) {
+    html {
+        font-size: 12px;
+    }
+    main {
+        padding-top: 110px;
+    }
+    main .section {
+        padding: 20px 10px;
+        margin-bottom: 10px;
+    }
+    main .section:last-child {
+        margin-bottom: 0;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .section__title {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .container {
+        padding: 0;
+    }
+}
