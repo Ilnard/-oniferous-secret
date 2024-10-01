@@ -20,13 +20,19 @@
     }
 }
 @media screen and (max-width: 400px) {
-    .catalog__inner {
-        grid-template-columns: 1fr;
-    }
     .catalog-card {
-        min-height: 450px;
+        min-height: 280px;
     }
     .catalog-card__picture {
-        height: 250px;
+        height: 120px;
+    }
+    .catalog-card__info {
+        padding: 5px 10px 10px;
+    }
+    .catalog-card__name {
+        margin-bottom: 8px;
+    }
+    .catalog-card__price {
+        font-size: 1.5rem;
     }
 }
